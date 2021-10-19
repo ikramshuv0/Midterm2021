@@ -1,64 +1,94 @@
 Please answer the below core-java Questions:
 
 What is programing language?
-A.
+A. A programming language is a vocabulary and set of grammatical rules for instructing a computer or computing device to
+ perform specific tasks. It is something which a computer language programmers use to develop software programs,
+ scripts, or other sets of instructions for computers to execute.
 
 What jdk contains or composed of and define each components?
-A.
+A. JDK (Java Development Kit), is an essential part of creating a functional environment for the Java development
+process. The Key components of JDK are-
+1. JRE: Java Runtime Environment has JVM(Java Virtual Machine) and other Library Files.
+2. javac: It’s a compiler. And, basically it converts src into Java bytecode.
+3.javadoc: It is a documentation generator, which produces documentation from src comments, automatically.
+4. jar: It is an archiver. Along with related class libraries packages into one JAR file. Also, it manages those files.
+5. javap: it is a Class file disassembler
 
 What is IDE?
-A.
+A. IDE (Integrated Development Environment) is a software or tools include a text editor, a project editor, a tool bar,
+ and an output viewer. It can perform a variety of functions. Notable ones include write code, compile code, debug code,
+  and monitor resources. Examples of IDEs include NetBeans, Eclipse, IntelliJ, and Visual Studio.
 
 What are the IDEs available in the market to support java?
-A.
+A. NetBeans, Eclipse, IntelliJ.
 
 Explain the entire java life cycle.
-A.
+A. it starts from Source code where all the commands and instructions of the Java Project. At compile time we convert
+src to machine code. then the in runtime, which is the final phase of Program Life Cycle, machine executes that machine
+code.
 
 what is class?
-A.
+A. Class is a blueprint. Like we use blueprint first to create a house. Same here with class in JAVA. It is a template
+or a block of codes used to create objects and to define object data types and methods.
 
 What is object?
-A.
+A. Classes are categories, and objects are items within each category. All class objects should have the basic class
+properties.
 
 What is the entry point of an application?
-A.
+A. Public Static Void Main() {} is the starting point; also it is the main method.
 
 Why main is static?
-A.
+A. Without main method a compiler cannot execute the program. So, it needs to be shown and that is why we type static.
+ Otherwise, an error will be shown as- NoSuchMethodError.
 
 Which class is the superclass of all classes?
-A.
+A.The Object class, which is stored in the java.lang package.
 
 What is difference between path and classpath variables?
-A.
+A. These are both Environment Variables but Path is used by operating system to find the executables and Classpath is
+used by Java Compiler to find that path.
 
 What is the difference between an Interface and Abstract class?
-A.
+A. An Abstract class can implement the functionalities but Interface cannot do that. Interfaces can only define those
+functionalities.
 
 Can you make an Object from an Interface and Abstract class ? if not how do you use it ?
-A.
+A. No, we can not. Because Interface and Abstract classes are not completed one. objects can be created in a complete
+Class only.
 
 what is Access Specifier?
-A.
+A. It decides that class is private or public, or default or protected.
 
 What is OOP ? Define each feature of java OOP.
-A.
+A. Object Oriented Programming or OOP has some features, like-
+1. Abstraction: Just like before reading the whole book if we read its abstraction we can summarize the book. Same here
+to avoid the repetition of same work multiple times,  simple things like objects, classes, and variables represent more
+complex underlying code and data.
+2. Encapsulation: It keeps the fields within a class private, then providing access to them via public methods.
+3. Polymorphism: Overloading and Overriding.
+4. Inheritance: It is used for new classes to inherit some of the attributions from another existing class.
 
 What is Java Package and which package is imported by default?
-A.
+A. In Java, under a project we have src and under src we will have packages. And under packages we have class, subclass,
+ intefaces etc.
 
 What is API? Name list of API that you have used so far.
-A.
+A. An API (Application Programming Interface) is a set of functions that allows applications to access data and interact
+ with external software components, operating systems, or microservices. So, an API delivers a user response to a system
+  and sends the system's response back to a user.
 
 Does java support multiple inheritance, explain why or why not?
-A.
+A. We can inherit from one class to another and inherit that one to another.
 
 What is method overloading and when it happens?
-A.
+A. It is known as Compile time Polymorphism. It allows a class to have more than one method having the same name even
+their arguments are different.
 
 Explain exceptions in java and how to handle it.
-A.
+A. if something is interrupting the executions it is called Exceptions. There are 2 ways of handling Exceptions-
+1. Throwable class method.
+2. Try and catch method.
 
 What is static keyword in java? How it has been used in variables and methods ?
 A.

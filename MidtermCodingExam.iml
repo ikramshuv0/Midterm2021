@@ -10,7 +10,7 @@
     <orderEntry type="module-library">
       <library>
         <CLASSES>
-          <root url="jar://$MODULE_DIR$/library/testng-6.8.5.jar!/" />
+          <root url="jar://$MODULE_DIR$/src/library/mongo-java-driver-3.4.0.jar!/" />
         </CLASSES>
         <JAVADOC />
         <SOURCES />
@@ -19,7 +19,7 @@
     <orderEntry type="module-library">
       <library>
         <CLASSES>
-          <root url="jar://$MODULE_DIR$/library/mongo-java-driver-3.4.0.jar!/" />
+          <root url="jar://$MODULE_DIR$/src/library/mysql-connector-java-8.0.25.jar!/" />
         </CLASSES>
         <JAVADOC />
         <SOURCES />
@@ -28,7 +28,7 @@
     <orderEntry type="module-library">
       <library>
         <CLASSES>
-          <root url="jar://$MODULE_DIR$/library/mysql-connector-java-8.0.25.jar!/" />
+          <root url="jar://$MODULE_DIR$/src/library/testng-6.8.5.jar!/" />
         </CLASSES>
         <JAVADOC />
         <SOURCES />
