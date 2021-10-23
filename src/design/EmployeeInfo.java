@@ -18,6 +18,7 @@ public class EmployeeInfo extends EmployeeAbstract implements Employee {
 	//implementation here...
 
 
+
 	/*declare few static and final fields and some non-static fields*/
 
     //implementation here...

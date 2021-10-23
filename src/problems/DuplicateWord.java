@@ -1,5 +1,7 @@
 package problems;
 
+import java.text.DecimalFormat;
+import java.util.Collections;
 import java.util.HashMap;
 import java.util.Map;
 
@@ -17,8 +19,5 @@ public class DuplicateWord {
         String string = "Java is a programming Language. Java is also an Island of Indonesia. Java is widely used language";
 
         //implementation here...
-
-
     }
-
 }

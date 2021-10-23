@@ -16,7 +16,28 @@ public class Pattern {
 		 */
 
 		//implementation here...
-
-
+		int n = 100;
+		System.out.println(arrayList(n));
 	}
+
+	public static ArrayList arrayList(int n) {
+		int count = 1, s = 0;
+
+		ArrayList<Integer> ar = new ArrayList<>();
+
+		int[] array1 = new int[40];
+
+		while (n > 0) {
+			for (int i = 0; i < 10; i++) {
+				ar.add(n);
+				array1[s] = n;
+				n -= count;
+				s++;
+			}
+			count++;
+		}
+		return ar;
+	}
+
 }
+
